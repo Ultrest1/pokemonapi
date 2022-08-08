@@ -10,6 +10,7 @@ PokemonModel pokemonModelFromJson(String str) =>
 String pokemonModelToJson(PokemonModel data) => json.encode(data.toJson());
 
 class PokemonModel {
+  //modal dosyasi eklendi
   PokemonModel({
     this.id,
     this.num,
