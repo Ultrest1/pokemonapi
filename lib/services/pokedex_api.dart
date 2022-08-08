@@ -4,6 +4,7 @@ import 'package:dio/dio.dart';
 import 'package:pokemonapi/model/PokemonModel.dart';
 
 class PokeApi {
+  //services dosyasi ayrıldi
   static const String _url =
       "https://raw.githubusercontent.com/Biuni/PokemonGo-Pokedex/master/pokedex.json";
 
