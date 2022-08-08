@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 class Contants {
+  //degismeyenler sinif ayrıldı
   Contants._(); //kurucu metodu gizlendi yeni nesne uretilmez
   static const String title = "Pokedex";
 
