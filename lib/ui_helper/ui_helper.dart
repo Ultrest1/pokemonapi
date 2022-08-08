@@ -7,5 +7,6 @@ class UiHelper {
 
   static double getAppTitleWidgetHeight() {
     return ScreenUtil().orientation == Orientation.portrait ? 0.15.sh : 0.15.sw;
+    //Ui helper sinifi ayrıldi
   }
 }
