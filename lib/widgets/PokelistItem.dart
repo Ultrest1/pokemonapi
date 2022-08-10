@@ -27,7 +27,7 @@ class PokelistItem extends StatelessWidget {
           ),
           elevation: 3,
           shadowColor: Colors.white,
-          color: Colors.red.shade600,
+          color: Colors.red.withOpacity(0.8),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceAround,
             crossAxisAlignment: CrossAxisAlignment.start,
