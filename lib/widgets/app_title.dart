@@ -22,17 +22,27 @@ class AppTitle extends StatelessWidget {
               ),
             ),
           ),
-          Align(
-            alignment: Alignment.topRight,
-            child: Image.asset(
-              'assets/geyik.png',
-              width: ScreenUtil().orientation == Orientation.portrait
-                  ? 0.2.sh
-                  : 0.2.sw,
-              fit: BoxFit.fitWidth,
-            ),
-          ),
+          NewWidget(),
         ],
+      ),
+    );
+  }
+}
+
+class NewWidget extends StatelessWidget {
+  const NewWidget({
+    Key? key,
+  }) : super(key: key);
+
+  @override
+  Widget build(BuildContext context) {
+    return Align(
+      alignment: Alignment.topRight,
+      child: Image.asset(
+        'assets/geyik.png',
+        width:
+            ScreenUtil().orientation == Orientation.portrait ? 0.2.sh : 0.2.sw,
+        fit: BoxFit.fitWidth,
       ),
     );
   }
