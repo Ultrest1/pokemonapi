@@ -11,7 +11,6 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    //branch deneme main dosyasi temizlendi
     return ScreenUtilInit(
       designSize: const Size(412, 732),
       builder: (BuildContext, Widget) => SafeArea(
