@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokemonapi/widgets/app_title.dart';
 
+import '../widgets/app_title.dart';
 import '../widgets/pokemon_list.dart';
 
 class HomePage extends StatelessWidget {

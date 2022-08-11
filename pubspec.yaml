@@ -32,6 +32,7 @@ dependencies:
   dio: ^4.0.6
   flutter_screenutil: ^5.5.3+2
   cached_network_image: ^3.2.1
+  bubble_lens: ^2.0.0
 
 
   # The following adds the Cupertino Icons font to your application.

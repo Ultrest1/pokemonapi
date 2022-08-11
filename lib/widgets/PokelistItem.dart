@@ -17,7 +17,9 @@ class PokelistItem extends StatelessWidget {
       onTap: () {
         Navigator.of(context).push(
           MaterialPageRoute(
-            builder: (context) => DetailPage(pokemon: pokemon),
+            builder: (context) => DetailPage(
+              pokemon: pokemon,
+            ),
           ),
         );
       },
