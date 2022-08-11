@@ -11,6 +11,7 @@ class bubble extends StatefulWidget {
   @override
   State<bubble> createState() => _bubbleState();
 }
+//Deneme
 
 class _bubbleState extends State<bubble> {
   late Future<List<PokemonModel>> _pokemonList;
